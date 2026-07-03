@@ -42,11 +42,11 @@
         {
           "name": "plugin-contract-metadata-0.1.0.jar",
           "url": "plugin-contract-0.1.0.jar",
-          "size": 40878,
-          "sha512": "4f0801cc1018ca6014208f4e4b7d34eefaaa25f49b46887b768ab20e5b9cd29745f203fe6879f3b48f0851c0fcc2f0f88fa1ab8dc7f890cca3044c8c168485dd",
-          "sha256": "a8b5ad73927d14df7ea9837ee3489e0b159e60c5e90989bf2685d021d07f6193",
-          "sha1": "19bba0f26a7934dd859d1b8be5b191b32eaa1be3",
-          "md5": "eab2b30c0141d8e5302803d1b35102a6"
+          "size": 40748,
+          "sha512": "22638df4a0eef9e878b9c4c3764d87af125dae75a135058bb0380a3d5f52a2ce5f44baed8ef15f75c96f822c2d78fbc640bb842cefc8baa3976b99070ba5b5cf",
+          "sha256": "4a1ba963c8c3b51375d05af9841d837223690f62639584dbdeb269d1904dce8b",
+          "sha1": "e9be543ff315c8777f45c8efacfbac781df437b0",
+          "md5": "9774be62d0e7fb44447dd2b72a5f971d"
         }
       ]
     },
@@ -79,70 +79,6 @@
         "url": "../../plugin-contract-android/0.1.0/plugin-contract-android-0.1.0.module",
         "group": "dev.suvio.plugin",
         "module": "plugin-contract-android",
-        "version": "0.1.0"
-      }
-    },
-    {
-      "name": "iosArm64ApiElements-published",
-      "attributes": {
-        "org.gradle.category": "library",
-        "org.gradle.jvm.environment": "non-jvm",
-        "org.gradle.usage": "kotlin-api",
-        "org.jetbrains.kotlin.native.target": "ios_arm64",
-        "org.jetbrains.kotlin.platform.type": "native"
-      },
-      "available-at": {
-        "url": "../../plugin-contract-iosarm64/0.1.0/plugin-contract-iosarm64-0.1.0.module",
-        "group": "dev.suvio.plugin",
-        "module": "plugin-contract-iosarm64",
-        "version": "0.1.0"
-      }
-    },
-    {
-      "name": "iosArm64MetadataElements-published",
-      "attributes": {
-        "org.gradle.category": "library",
-        "org.gradle.jvm.environment": "non-jvm",
-        "org.gradle.usage": "kotlin-metadata",
-        "org.jetbrains.kotlin.native.target": "ios_arm64",
-        "org.jetbrains.kotlin.platform.type": "native"
-      },
-      "available-at": {
-        "url": "../../plugin-contract-iosarm64/0.1.0/plugin-contract-iosarm64-0.1.0.module",
-        "group": "dev.suvio.plugin",
-        "module": "plugin-contract-iosarm64",
-        "version": "0.1.0"
-      }
-    },
-    {
-      "name": "iosSimulatorArm64ApiElements-published",
-      "attributes": {
-        "org.gradle.category": "library",
-        "org.gradle.jvm.environment": "non-jvm",
-        "org.gradle.usage": "kotlin-api",
-        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
-        "org.jetbrains.kotlin.platform.type": "native"
-      },
-      "available-at": {
-        "url": "../../plugin-contract-iossimulatorarm64/0.1.0/plugin-contract-iossimulatorarm64-0.1.0.module",
-        "group": "dev.suvio.plugin",
-        "module": "plugin-contract-iossimulatorarm64",
-        "version": "0.1.0"
-      }
-    },
-    {
-      "name": "iosSimulatorArm64MetadataElements-published",
-      "attributes": {
-        "org.gradle.category": "library",
-        "org.gradle.jvm.environment": "non-jvm",
-        "org.gradle.usage": "kotlin-metadata",
-        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
-        "org.jetbrains.kotlin.platform.type": "native"
-      },
-      "available-at": {
-        "url": "../../plugin-contract-iossimulatorarm64/0.1.0/plugin-contract-iossimulatorarm64-0.1.0.module",
-        "group": "dev.suvio.plugin",
-        "module": "plugin-contract-iossimulatorarm64",
         "version": "0.1.0"
       }
     },

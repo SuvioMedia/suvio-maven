@@ -63,11 +63,11 @@
         {
           "name": "sdk-metadata-0.1.0.jar",
           "url": "sdk-0.1.0.jar",
-          "size": 5412,
-          "sha512": "c1e2e7f4b89c79cd5454247b1c21c8c614ef8dd539505740496d4eebd61fd45c3fc7624612099a27e6d8641e94c513154024d51fc9fa506b13f10b0c4357ed9e",
-          "sha256": "bcdd70a637096cc637ebefe2512906f9f820c0e39e794a5abc7b99a332ba0fbb",
-          "sha1": "859078b8117c69ffec929c43fdc90b0e2fc920c8",
-          "md5": "41b57d1e4300284e9be6489260e2687d"
+          "size": 5271,
+          "sha512": "83a1dffcf09902c1edd848e048fd54109d76f999a3119644fb676f3b197b787ce9c9f963a6e5c56b7818c5bf315b16a7026206c62fd34e4e34c00d60e7c68856",
+          "sha256": "7d526c986cd8dc2d435c6b47198a5df528319beb923e42a1fe6332f443f0da59",
+          "sha1": "426f9dcb37e5e83a2b16594af3c38b40d9613048",
+          "md5": "64a1ee8fd6f73cd68c8e664daf1074ad"
         }
       ]
     },
@@ -100,70 +100,6 @@
         "url": "../../sdk-android/0.1.0/sdk-android-0.1.0.module",
         "group": "dev.suvio.plugin",
         "module": "sdk-android",
-        "version": "0.1.0"
-      }
-    },
-    {
-      "name": "iosArm64ApiElements-published",
-      "attributes": {
-        "org.gradle.category": "library",
-        "org.gradle.jvm.environment": "non-jvm",
-        "org.gradle.usage": "kotlin-api",
-        "org.jetbrains.kotlin.native.target": "ios_arm64",
-        "org.jetbrains.kotlin.platform.type": "native"
-      },
-      "available-at": {
-        "url": "../../sdk-iosarm64/0.1.0/sdk-iosarm64-0.1.0.module",
-        "group": "dev.suvio.plugin",
-        "module": "sdk-iosarm64",
-        "version": "0.1.0"
-      }
-    },
-    {
-      "name": "iosArm64MetadataElements-published",
-      "attributes": {
-        "org.gradle.category": "library",
-        "org.gradle.jvm.environment": "non-jvm",
-        "org.gradle.usage": "kotlin-metadata",
-        "org.jetbrains.kotlin.native.target": "ios_arm64",
-        "org.jetbrains.kotlin.platform.type": "native"
-      },
-      "available-at": {
-        "url": "../../sdk-iosarm64/0.1.0/sdk-iosarm64-0.1.0.module",
-        "group": "dev.suvio.plugin",
-        "module": "sdk-iosarm64",
-        "version": "0.1.0"
-      }
-    },
-    {
-      "name": "iosSimulatorArm64ApiElements-published",
-      "attributes": {
-        "org.gradle.category": "library",
-        "org.gradle.jvm.environment": "non-jvm",
-        "org.gradle.usage": "kotlin-api",
-        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
-        "org.jetbrains.kotlin.platform.type": "native"
-      },
-      "available-at": {
-        "url": "../../sdk-iossimulatorarm64/0.1.0/sdk-iossimulatorarm64-0.1.0.module",
-        "group": "dev.suvio.plugin",
-        "module": "sdk-iossimulatorarm64",
-        "version": "0.1.0"
-      }
-    },
-    {
-      "name": "iosSimulatorArm64MetadataElements-published",
-      "attributes": {
-        "org.gradle.category": "library",
-        "org.gradle.jvm.environment": "non-jvm",
-        "org.gradle.usage": "kotlin-metadata",
-        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
-        "org.jetbrains.kotlin.platform.type": "native"
-      },
-      "available-at": {
-        "url": "../../sdk-iossimulatorarm64/0.1.0/sdk-iossimulatorarm64-0.1.0.module",
-        "group": "dev.suvio.plugin",
-        "module": "sdk-iossimulatorarm64",
         "version": "0.1.0"
       }
     },
