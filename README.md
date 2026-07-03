@@ -7,7 +7,7 @@ Use this repository from Gradle:
 ```kotlin
 pluginManagement {
     repositories {
-        maven("https://suviomedia.github.io/suvio-maven")
+        maven("https://raw.githubusercontent.com/SuvioMedia/suvio-maven/main/")
         gradlePluginPortal()
         mavenCentral()
     }
@@ -15,7 +15,7 @@ pluginManagement {
 
 dependencyResolutionManagement {
     repositories {
-        maven("https://suviomedia.github.io/suvio-maven")
+        maven("https://raw.githubusercontent.com/SuvioMedia/suvio-maven/main/")
         mavenCentral()
     }
 }
