@@ -1,0 +1,93 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../plugin-contract/0.1.0/plugin-contract-0.1.0.module",
+    "group": "dev.suvio.plugin",
+    "module": "plugin-contract",
+    "version": "0.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.6.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "wasmWasiApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "wasi"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "plugin-contract-wasm-wasi-0.1.0.klib",
+          "url": "plugin-contract-wasm-wasi-0.1.0.klib",
+          "size": 540291,
+          "sha512": "ef11091c410f6f6a1fb07caf37d657507ff3514afeba82cc5a568ff8675c03f6b7eb770331d554e116d2681ad9ad9fd640254d093ff260f13df728ac2d41fe1b",
+          "sha256": "eeb2c0d370b60eeccde53f41f68c76ede3e825a3acb0cf6b0bdf269043aafef3",
+          "sha1": "68630b4023947a27fca5ddbce2865e544f443fba",
+          "md5": "261c1e86eb5668fb6933321571a4d921"
+        }
+      ]
+    },
+    {
+      "name": "wasmWasiRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "wasi"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "plugin-contract-wasm-wasi-0.1.0.klib",
+          "url": "plugin-contract-wasm-wasi-0.1.0.klib",
+          "size": 540291,
+          "sha512": "ef11091c410f6f6a1fb07caf37d657507ff3514afeba82cc5a568ff8675c03f6b7eb770331d554e116d2681ad9ad9fd640254d093ff260f13df728ac2d41fe1b",
+          "sha256": "eeb2c0d370b60eeccde53f41f68c76ede3e825a3acb0cf6b0bdf269043aafef3",
+          "sha1": "68630b4023947a27fca5ddbce2865e544f443fba",
+          "md5": "261c1e86eb5668fb6933321571a4d921"
+        }
+      ]
+    }
+  ]
+}

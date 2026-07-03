@@ -1,0 +1,107 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../sdk-settings-ui/0.1.0/sdk-settings-ui-0.1.0.module",
+    "group": "dev.suvio.plugin",
+    "module": "sdk-settings-ui",
+    "version": "0.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.6.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "wasmWasiApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "wasi"
+      },
+      "dependencies": [
+        {
+          "group": "dev.suvio.plugin",
+          "module": "plugin-contract",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sdk-settings-ui-wasm-wasi-0.1.0.klib",
+          "url": "sdk-settings-ui-wasm-wasi-0.1.0.klib",
+          "size": 176769,
+          "sha512": "c06147fbd94d76d1c7cc9f9e02c3f6384d1f12a7a04f1bffb6026c90697672164727f75134c0ac883738c55500912d1b2e0169c186a129691fb2cfdc211c978f",
+          "sha256": "2776efdbafde35a61811cb71f9837aca2b1ac1a3e9cdd41ebd0e10a05b66d0d3",
+          "sha1": "856fa46e5938054e548d12b451a3cb0fc04bff87",
+          "md5": "83e64a5b43b029dfcca9c76a332058a9"
+        }
+      ]
+    },
+    {
+      "name": "wasmWasiRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "wasi"
+      },
+      "dependencies": [
+        {
+          "group": "dev.suvio.plugin",
+          "module": "plugin-contract",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sdk-settings-ui-wasm-wasi-0.1.0.klib",
+          "url": "sdk-settings-ui-wasm-wasi-0.1.0.klib",
+          "size": 176769,
+          "sha512": "c06147fbd94d76d1c7cc9f9e02c3f6384d1f12a7a04f1bffb6026c90697672164727f75134c0ac883738c55500912d1b2e0169c186a129691fb2cfdc211c978f",
+          "sha256": "2776efdbafde35a61811cb71f9837aca2b1ac1a3e9cdd41ebd0e10a05b66d0d3",
+          "sha1": "856fa46e5938054e548d12b451a3cb0fc04bff87",
+          "md5": "83e64a5b43b029dfcca9c76a332058a9"
+        }
+      ]
+    }
+  ]
+}

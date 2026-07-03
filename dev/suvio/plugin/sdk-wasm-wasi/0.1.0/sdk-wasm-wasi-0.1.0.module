@@ -1,0 +1,135 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../sdk/0.1.0/sdk-0.1.0.module",
+    "group": "dev.suvio.plugin",
+    "module": "sdk",
+    "version": "0.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.6.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "wasmWasiApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "wasi"
+      },
+      "dependencies": [
+        {
+          "group": "dev.suvio.plugin",
+          "module": "plugin-contract",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-io-core",
+          "version": {
+            "requires": "0.9.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json-io",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sdk-wasm-wasi-0.1.0.klib",
+          "url": "sdk-wasm-wasi-0.1.0.klib",
+          "size": 71752,
+          "sha512": "b5a4dd667a230cdc950367a693cb0d91cf91605db0a777c3608090f5c212b03be895b37c1a1bd11f12f173e61a83be3ac4757cc6d181ac06aac4482a7c4e24a2",
+          "sha256": "388958c32aeab699074c36008d86e673a22633aefc456a93ad1fc8889007ada5",
+          "sha1": "976100490a772c00be1fe4d91ad231ff408cdc64",
+          "md5": "c9269020a3baef9fd0780493b97164b3"
+        }
+      ]
+    },
+    {
+      "name": "wasmWasiRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "wasi"
+      },
+      "dependencies": [
+        {
+          "group": "dev.suvio.plugin",
+          "module": "plugin-contract",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-io-core",
+          "version": {
+            "requires": "0.9.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json-io",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sdk-wasm-wasi-0.1.0.klib",
+          "url": "sdk-wasm-wasi-0.1.0.klib",
+          "size": 71752,
+          "sha512": "b5a4dd667a230cdc950367a693cb0d91cf91605db0a777c3608090f5c212b03be895b37c1a1bd11f12f173e61a83be3ac4757cc6d181ac06aac4482a7c4e24a2",
+          "sha256": "388958c32aeab699074c36008d86e673a22633aefc456a93ad1fc8889007ada5",
+          "sha1": "976100490a772c00be1fe4d91ad231ff408cdc64",
+          "md5": "c9269020a3baef9fd0780493b97164b3"
+        }
+      ]
+    }
+  ]
+}
