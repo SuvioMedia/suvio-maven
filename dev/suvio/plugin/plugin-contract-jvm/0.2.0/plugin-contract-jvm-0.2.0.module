@@ -1,0 +1,93 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../plugin-contract/0.2.0/plugin-contract-0.2.0.module",
+    "group": "dev.suvio.plugin",
+    "module": "plugin-contract",
+    "version": "0.2.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.6.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "plugin-contract-jvm-0.2.0.jar",
+          "url": "plugin-contract-jvm-0.2.0.jar",
+          "size": 1002534,
+          "sha512": "7afc270ed59fc37c3480e4a06d19f1c3bf386f65b6a67f29b2cb54112995eb7778a346ab0e2847467013fd901e36b548b66616a544b8abbecef52250922bd971",
+          "sha256": "6863f9ff83720d4d55894c18d03ee3efaf01aa9d78b58f7cfc0d2c6faa1c5fab",
+          "sha1": "358acde5c07e4b95a0e1c6f791ceb6b96fd776a1",
+          "md5": "94b856c5060828fa8baab8c82b73dbc5"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "plugin-contract-jvm-0.2.0.jar",
+          "url": "plugin-contract-jvm-0.2.0.jar",
+          "size": 1002534,
+          "sha512": "7afc270ed59fc37c3480e4a06d19f1c3bf386f65b6a67f29b2cb54112995eb7778a346ab0e2847467013fd901e36b548b66616a544b8abbecef52250922bd971",
+          "sha256": "6863f9ff83720d4d55894c18d03ee3efaf01aa9d78b58f7cfc0d2c6faa1c5fab",
+          "sha1": "358acde5c07e4b95a0e1c6f791ceb6b96fd776a1",
+          "md5": "94b856c5060828fa8baab8c82b73dbc5"
+        }
+      ]
+    }
+  ]
+}

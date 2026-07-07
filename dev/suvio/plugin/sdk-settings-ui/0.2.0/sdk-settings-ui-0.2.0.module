@@ -1,0 +1,189 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.suvio.plugin",
+    "module": "sdk-settings-ui",
+    "version": "0.2.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.6.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "dev.suvio.plugin",
+          "module": "plugin-contract",
+          "version": {
+            "requires": "0.2.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sdk-settings-ui-metadata-0.2.0.jar",
+          "url": "sdk-settings-ui-0.2.0.jar",
+          "size": 16465,
+          "sha512": "e379dbf7f3cd7a381ccd6a47704e083af4b51b0b17d021eb3a193c86b519b4dc1c084c9f5564ac85f968a3a5fba2ab7b5b05701a1760f842db5d05690da343e1",
+          "sha256": "7fa1732c8707a9fbc8fc11e5f34e55f25f58d93777b2111781ec577bb65d7fb7",
+          "sha1": "bf4c6f32d2b1203888bc74c3fe246c620cb766b4",
+          "md5": "633b888c214f7625d73722aa289dc196"
+        }
+      ]
+    },
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../sdk-settings-ui-android/0.2.0/sdk-settings-ui-android-0.2.0.module",
+        "group": "dev.suvio.plugin",
+        "module": "sdk-settings-ui-android",
+        "version": "0.2.0"
+      }
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../sdk-settings-ui-android/0.2.0/sdk-settings-ui-android-0.2.0.module",
+        "group": "dev.suvio.plugin",
+        "module": "sdk-settings-ui-android",
+        "version": "0.2.0"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../sdk-settings-ui-jvm/0.2.0/sdk-settings-ui-jvm-0.2.0.module",
+        "group": "dev.suvio.plugin",
+        "module": "sdk-settings-ui-jvm",
+        "version": "0.2.0"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../sdk-settings-ui-jvm/0.2.0/sdk-settings-ui-jvm-0.2.0.module",
+        "group": "dev.suvio.plugin",
+        "module": "sdk-settings-ui-jvm",
+        "version": "0.2.0"
+      }
+    },
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../sdk-settings-ui-wasm-js/0.2.0/sdk-settings-ui-wasm-js-0.2.0.module",
+        "group": "dev.suvio.plugin",
+        "module": "sdk-settings-ui-wasm-js",
+        "version": "0.2.0"
+      }
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../sdk-settings-ui-wasm-js/0.2.0/sdk-settings-ui-wasm-js-0.2.0.module",
+        "group": "dev.suvio.plugin",
+        "module": "sdk-settings-ui-wasm-js",
+        "version": "0.2.0"
+      }
+    },
+    {
+      "name": "wasmWasiApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "wasi"
+      },
+      "available-at": {
+        "url": "../../sdk-settings-ui-wasm-wasi/0.2.0/sdk-settings-ui-wasm-wasi-0.2.0.module",
+        "group": "dev.suvio.plugin",
+        "module": "sdk-settings-ui-wasm-wasi",
+        "version": "0.2.0"
+      }
+    },
+    {
+      "name": "wasmWasiRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "wasi"
+      },
+      "available-at": {
+        "url": "../../sdk-settings-ui-wasm-wasi/0.2.0/sdk-settings-ui-wasm-wasi-0.2.0.module",
+        "group": "dev.suvio.plugin",
+        "module": "sdk-settings-ui-wasm-wasi",
+        "version": "0.2.0"
+      }
+    }
+  ]
+}

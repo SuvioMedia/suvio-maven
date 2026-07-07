@@ -1,0 +1,107 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../sdk-settings-ui/0.2.0/sdk-settings-ui-0.2.0.module",
+    "group": "dev.suvio.plugin",
+    "module": "sdk-settings-ui",
+    "version": "0.2.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.6.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "dev.suvio.plugin",
+          "module": "plugin-contract",
+          "version": {
+            "requires": "0.2.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sdk-settings-ui-wasm-js-0.2.0.klib",
+          "url": "sdk-settings-ui-wasm-js-0.2.0.klib",
+          "size": 146998,
+          "sha512": "aaf1871baa4bd228fd1f13209ef3d60bb8590ed27eb86b2ef3c2862e4bcee085f3bdbad3965f8b923bea8f19ee0a2b239c395e7d113a31b6ef388999699c880e",
+          "sha256": "91fd84c38144cbf82ef5b8d63e1b308ee015f8a45c3c55e68dc2c212ed82db38",
+          "sha1": "8e070fc19dc8b4331b21cc4325940c931ce0dde7",
+          "md5": "f91a3dc95b7bb3755ca37a4ee031111d"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "dev.suvio.plugin",
+          "module": "plugin-contract",
+          "version": {
+            "requires": "0.2.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sdk-settings-ui-wasm-js-0.2.0.klib",
+          "url": "sdk-settings-ui-wasm-js-0.2.0.klib",
+          "size": 146998,
+          "sha512": "aaf1871baa4bd228fd1f13209ef3d60bb8590ed27eb86b2ef3c2862e4bcee085f3bdbad3965f8b923bea8f19ee0a2b239c395e7d113a31b6ef388999699c880e",
+          "sha256": "91fd84c38144cbf82ef5b8d63e1b308ee015f8a45c3c55e68dc2c212ed82db38",
+          "sha1": "8e070fc19dc8b4331b21cc4325940c931ce0dde7",
+          "md5": "f91a3dc95b7bb3755ca37a4ee031111d"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>dev.suvio.plugin</groupId>
+  <artifactId>dev.suvio.plugin.gradle.plugin</artifactId>
+  <version>0.2.0</version>
+  <packaging>pom</packaging>
+  <name>Suvio Plugin SDK</name>
+  <description>Suvio plugin SDK artifacts and Gradle tooling.</description>
+  <url>https://suvio.dev</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://opensource.org/license/mit</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>suvio</id>
+      <name>Suvio</name>
+    </developer>
+  </developers>
+  <dependencies>
+    <dependency>
+      <groupId>dev.suvio.plugin</groupId>
+      <artifactId>suvio-gradle-plugin</artifactId>
+      <version>0.2.0</version>
+    </dependency>
+  </dependencies>
+</project>
