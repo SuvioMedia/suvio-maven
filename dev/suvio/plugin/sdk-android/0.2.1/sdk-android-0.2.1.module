@@ -1,0 +1,135 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../sdk/0.2.1/sdk-0.2.1.module",
+    "group": "dev.suvio.plugin",
+    "module": "sdk",
+    "version": "0.2.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.6.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "dev.suvio.plugin",
+          "module": "plugin-contract",
+          "version": {
+            "requires": "0.2.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-io-core",
+          "version": {
+            "requires": "0.9.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json-io",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sdk.aar",
+          "url": "sdk-android-0.2.1.aar",
+          "size": 48215,
+          "sha512": "b1901953cd186b2dcca51ca38677a7b1ea816350da094d3e57ed29b62886656ec03c525d11dffbd98860414f43471617dcd8e987e8a542bb181a6aa4e1946da1",
+          "sha256": "bda5a839a5a9b014003a992610742039d3cd869f8f245cee4eb325506d7eb5f7",
+          "sha1": "6de0868e7f46b4b6ee4953f1f3d5c86e53e31d03",
+          "md5": "136a05c4883cea39f5f76ca455e721c5"
+        }
+      ]
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "dev.suvio.plugin",
+          "module": "plugin-contract",
+          "version": {
+            "requires": "0.2.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-io-core",
+          "version": {
+            "requires": "0.9.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json-io",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sdk.aar",
+          "url": "sdk-android-0.2.1.aar",
+          "size": 48215,
+          "sha512": "b1901953cd186b2dcca51ca38677a7b1ea816350da094d3e57ed29b62886656ec03c525d11dffbd98860414f43471617dcd8e987e8a542bb181a6aa4e1946da1",
+          "sha256": "bda5a839a5a9b014003a992610742039d3cd869f8f245cee4eb325506d7eb5f7",
+          "sha1": "6de0868e7f46b4b6ee4953f1f3d5c86e53e31d03",
+          "md5": "136a05c4883cea39f5f76ca455e721c5"
+        }
+      ]
+    }
+  ]
+}
