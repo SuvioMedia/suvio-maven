@@ -1,0 +1,107 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../sdk-settings-ui/0.2.1/sdk-settings-ui-0.2.1.module",
+    "group": "dev.suvio.plugin",
+    "module": "sdk-settings-ui",
+    "version": "0.2.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.6.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "dev.suvio.plugin",
+          "module": "plugin-contract",
+          "version": {
+            "requires": "0.2.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sdk-settings-ui-jvm-0.2.1.jar",
+          "url": "sdk-settings-ui-jvm-0.2.1.jar",
+          "size": 325091,
+          "sha512": "e8794c6a90a931289a7f5e87b6c5f7cfd25a53654dcac1ac77d8b86be8b3370174221476ff27a73e97920b5039bfc9dcae7b4ef3678106df17a0427006216178",
+          "sha256": "6f8fb99b3320cfb29c628a6a3235dbee329584f7da7f437292f70de6281dccf1",
+          "sha1": "8f4103cbe6152f278ec5200b604832f660a17d1b",
+          "md5": "164122370d7520350f2f64c53af80fc1"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "dev.suvio.plugin",
+          "module": "plugin-contract",
+          "version": {
+            "requires": "0.2.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sdk-settings-ui-jvm-0.2.1.jar",
+          "url": "sdk-settings-ui-jvm-0.2.1.jar",
+          "size": 325091,
+          "sha512": "e8794c6a90a931289a7f5e87b6c5f7cfd25a53654dcac1ac77d8b86be8b3370174221476ff27a73e97920b5039bfc9dcae7b4ef3678106df17a0427006216178",
+          "sha256": "6f8fb99b3320cfb29c628a6a3235dbee329584f7da7f437292f70de6281dccf1",
+          "sha1": "8f4103cbe6152f278ec5200b604832f660a17d1b",
+          "md5": "164122370d7520350f2f64c53af80fc1"
+        }
+      ]
+    }
+  ]
+}

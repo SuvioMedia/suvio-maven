@@ -1,0 +1,107 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../plugin-contract/0.2.1/plugin-contract-0.2.1.module",
+    "group": "dev.suvio.plugin",
+    "module": "plugin-contract",
+    "version": "0.2.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.6.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "plugin-contract.aar",
+          "url": "plugin-contract-android-0.2.1.aar",
+          "size": 955000,
+          "sha512": "068b81ecd3a91d35b93ddba9b621b8cca4e8205a1af3e5082dff48c97471e6f9b126140cdcadda084eb415609b9b65900dafd501651e36c52b561936968a3138",
+          "sha256": "2d1d95b6c9cc53a1cb71fdac63195053429146943a249f75a6ce2730a74cbe66",
+          "sha1": "d1f8ce41db687817aa0e7cacb17b0ced05bd3f3d",
+          "md5": "8557a7a54e2a8ca84d4f8fa0c6c19857"
+        }
+      ]
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "dev.whyoleg.cryptography",
+          "module": "cryptography-provider-jdk-bc",
+          "version": {
+            "requires": "0.6.0"
+          }
+        },
+        {
+          "group": "dev.whyoleg.cryptography",
+          "module": "cryptography-core",
+          "version": {
+            "requires": "0.6.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "plugin-contract.aar",
+          "url": "plugin-contract-android-0.2.1.aar",
+          "size": 955000,
+          "sha512": "068b81ecd3a91d35b93ddba9b621b8cca4e8205a1af3e5082dff48c97471e6f9b126140cdcadda084eb415609b9b65900dafd501651e36c52b561936968a3138",
+          "sha256": "2d1d95b6c9cc53a1cb71fdac63195053429146943a249f75a6ce2730a74cbe66",
+          "sha1": "d1f8ce41db687817aa0e7cacb17b0ced05bd3f3d",
+          "md5": "8557a7a54e2a8ca84d4f8fa0c6c19857"
+        }
+      ]
+    }
+  ]
+}

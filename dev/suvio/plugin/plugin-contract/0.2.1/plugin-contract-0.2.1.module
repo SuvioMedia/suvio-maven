@@ -1,0 +1,182 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.suvio.plugin",
+    "module": "plugin-contract",
+    "version": "0.2.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.6.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "plugin-contract-metadata-0.2.1.jar",
+          "url": "plugin-contract-0.2.1.jar",
+          "size": 44765,
+          "sha512": "5e6d7371e4b7f9e99e439b0735f622b37f6e8c360ea73ab359c71e6999d96fef95a0190000bb7b711bacc06000008b1471895b71984729f89991251393f776f8",
+          "sha256": "c7c5f1d2c32df4a1769ae133d5c76177e47a48e8012f31e121cc7c787890eaa9",
+          "sha1": "71cf0f0e1d00f2c67d83ede91384cd5d1a809b40",
+          "md5": "e9a40060002af5ac5f8f3a50752db097"
+        }
+      ]
+    },
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../plugin-contract-android/0.2.1/plugin-contract-android-0.2.1.module",
+        "group": "dev.suvio.plugin",
+        "module": "plugin-contract-android",
+        "version": "0.2.1"
+      }
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../plugin-contract-android/0.2.1/plugin-contract-android-0.2.1.module",
+        "group": "dev.suvio.plugin",
+        "module": "plugin-contract-android",
+        "version": "0.2.1"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../plugin-contract-jvm/0.2.1/plugin-contract-jvm-0.2.1.module",
+        "group": "dev.suvio.plugin",
+        "module": "plugin-contract-jvm",
+        "version": "0.2.1"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../plugin-contract-jvm/0.2.1/plugin-contract-jvm-0.2.1.module",
+        "group": "dev.suvio.plugin",
+        "module": "plugin-contract-jvm",
+        "version": "0.2.1"
+      }
+    },
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../plugin-contract-wasm-js/0.2.1/plugin-contract-wasm-js-0.2.1.module",
+        "group": "dev.suvio.plugin",
+        "module": "plugin-contract-wasm-js",
+        "version": "0.2.1"
+      }
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../plugin-contract-wasm-js/0.2.1/plugin-contract-wasm-js-0.2.1.module",
+        "group": "dev.suvio.plugin",
+        "module": "plugin-contract-wasm-js",
+        "version": "0.2.1"
+      }
+    },
+    {
+      "name": "wasmWasiApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "wasi"
+      },
+      "available-at": {
+        "url": "../../plugin-contract-wasm-wasi/0.2.1/plugin-contract-wasm-wasi-0.2.1.module",
+        "group": "dev.suvio.plugin",
+        "module": "plugin-contract-wasm-wasi",
+        "version": "0.2.1"
+      }
+    },
+    {
+      "name": "wasmWasiRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "wasi"
+      },
+      "available-at": {
+        "url": "../../plugin-contract-wasm-wasi/0.2.1/plugin-contract-wasm-wasi-0.2.1.module",
+        "group": "dev.suvio.plugin",
+        "module": "plugin-contract-wasm-wasi",
+        "version": "0.2.1"
+      }
+    }
+  ]
+}

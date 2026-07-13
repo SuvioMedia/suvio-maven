@@ -1,0 +1,107 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../plugin-contract/0.2.1/plugin-contract-0.2.1.module",
+    "group": "dev.suvio.plugin",
+    "module": "plugin-contract",
+    "version": "0.2.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.6.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "plugin-contract-wasm-js-0.2.1.klib",
+          "url": "plugin-contract-wasm-js-0.2.1.klib",
+          "size": 600452,
+          "sha512": "155dd7a4270d37353b6977fe3a00021d7a7a48ec3428133fc442930fe32c912e1061070053c7f51766ff9adf8118ba17dd919ca2115490b35f52a3996f79d734",
+          "sha256": "554f500c7903daf68a2029ae9587f468254b2579ccf0d0755d5275aff059d8a9",
+          "sha1": "9cc7f8728b90417883b4fe50813f6660046d31ee",
+          "md5": "e97a1bdb90b8c62b599d518c987273b3"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "dev.whyoleg.cryptography",
+          "module": "cryptography-provider-webcrypto",
+          "version": {
+            "requires": "0.6.0"
+          }
+        },
+        {
+          "group": "dev.whyoleg.cryptography",
+          "module": "cryptography-core",
+          "version": {
+            "requires": "0.6.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "plugin-contract-wasm-js-0.2.1.klib",
+          "url": "plugin-contract-wasm-js-0.2.1.klib",
+          "size": 600452,
+          "sha512": "155dd7a4270d37353b6977fe3a00021d7a7a48ec3428133fc442930fe32c912e1061070053c7f51766ff9adf8118ba17dd919ca2115490b35f52a3996f79d734",
+          "sha256": "554f500c7903daf68a2029ae9587f468254b2579ccf0d0755d5275aff059d8a9",
+          "sha1": "9cc7f8728b90417883b4fe50813f6660046d31ee",
+          "md5": "e97a1bdb90b8c62b599d518c987273b3"
+        }
+      ]
+    }
+  ]
+}
