@@ -1,0 +1,96 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.suvio.plugin",
+    "module": "suvio-gradle-plugin",
+    "version": "0.2.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.6.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "suvio-gradle-plugin-0.2.2.jar",
+          "url": "suvio-gradle-plugin-0.2.2.jar",
+          "size": 549211,
+          "sha512": "f451e0f1fad9fa5a8fa179a846e53b328134acd351ee3574a539e4351a2c177ed92c9b6cf354cd4131a90be0a14db6c056d47e5bb0d6d549fd5b927192eb591b",
+          "sha256": "fd6291a0f5e6035af6987461d535412e17f65ec7585f7db1da1eec48d7884e0a",
+          "sha1": "cdedffa969619eebf06a33790c242507d31ae8f0",
+          "md5": "f7a13be22a846ee92fb028005474a691"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "dev.suvio.plugin",
+          "module": "plugin-contract",
+          "version": {
+            "requires": "0.2.2"
+          }
+        },
+        {
+          "group": "uk.shusek.krwa",
+          "module": "component-model",
+          "version": {
+            "requires": "0.3.0-dev.5ccac2025c57"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "suvio-gradle-plugin-0.2.2.jar",
+          "url": "suvio-gradle-plugin-0.2.2.jar",
+          "size": 549211,
+          "sha512": "f451e0f1fad9fa5a8fa179a846e53b328134acd351ee3574a539e4351a2c177ed92c9b6cf354cd4131a90be0a14db6c056d47e5bb0d6d549fd5b927192eb591b",
+          "sha256": "fd6291a0f5e6035af6987461d535412e17f65ec7585f7db1da1eec48d7884e0a",
+          "sha1": "cdedffa969619eebf06a33790c242507d31ae8f0",
+          "md5": "f7a13be22a846ee92fb028005474a691"
+        }
+      ]
+    }
+  ]
+}
